@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('fondo10.jpg');
+}
+
+section {
+    position: relative;
+}
+
+.form-registro {
+    width: 500px;
+    height: 460px;
+    background-color: rgb(71, 73, 73);
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 7px 10px 37px rgb(0, 0, 0);
+    padding: 20px 30px;
+    border-top: 4px solid rgb(4, 27, 22);
+    color: aliceblue;
+}
+
+.form-registro h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 30px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: rgb(129, 129, 129);
+    font-size: 14px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.btn {
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 15px 15px;
+    display: inline-block;
+}
+
+::placeholder {
+    color: rgb(182, 182, 182);
+}
+
+.form-group input {
+    font-size: 18px;
+    border: 0;
+}
+
+.form-select {
+    font-size: 18px;
+    border: 0;
+}

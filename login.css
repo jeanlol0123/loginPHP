@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: darkslategrey;
+}
+
+.form-login {
+    width: 400px;
+    height: 350px;
+    background-color: rgb(21, 28, 34);
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: 7px 10px 37px rgb(0, 0, 0);
+    padding: 20px 30px;
+    border-top: 4px solid rgb(5, 9, 19);
+    color: aliceblue;
+    position: relative;
+}
+
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 30px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid rgb(5, 58, 93);
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: rgb(29, 44, 54);
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.form-login p {
+    height: 40px;
+    text-align: center;
+}
+
+.form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
+
+.form-group input {
+    font-size: 18px;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+.form-group::before {
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    font-size: 22px;
+    padding-top: 4px;
+    padding-left: 15px;
+}
+
+.form-group#user-group::before {
+    content: "\f007";
+    color: black;
+}
+
+.form-group#password-group::before {
+    content: "\f023";
+    color: black;
+}
+
+#regis {
+    margin-top: -20px;
+}
